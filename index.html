@@ -1,2 +1,78 @@
-𝐒𝐓𝐀𝐑𝐃𝐔𝐒𝐓 𝐀𝐒𝐊𝐈𝐍𝐆 🙃<iframe src="https://saurabhnemade.github.io/will-you-be-my-valentine/" 
-        style="width: 100%; height: 500px; border: none;"></iframe>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Proposal</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    .strip {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: linear-gradient(to right, #ff7eb3, #ff758c);
+      color: white;
+      padding: 15px 30px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-right: 15px;
+      border: 2px solid white;
+    }
+
+    .message {
+      font-size: 24px;
+      font-weight: bold;
+      animation: slideIn 3s ease-in-out infinite alternate;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(0px);
+      }
+      to {
+        transform: translateY(-10px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="strip">
+    <div class="logo">
+      <img src="your-image.jpg" alt="Your Logo">
+    </div>
+    <div class="message">Stardust asking to Juhi: Will you be my Valentine?</div>
+    <div class="logo">
+      <img src="juhi-logo.jpg" alt="Juhi's Logo">
+    </div>
+  </div>
+
+  <iframe src="https://saurabhnemade.github.io/will-you-be-my-valentine/" 
+          style="width: 100%; height: 500px; border: none; margin-top: 20px;"></iframe>
+</body>
+</html>
